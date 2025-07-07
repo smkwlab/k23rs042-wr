@@ -1,4 +1,8 @@
 {
+    "plugins": ["latex2e", "html"],
+    "filters": {
+        "comments": true
+    },
     "rules": {
         "preset-ja-technical-writing": {
             "max-kanji-continuous-len": {
@@ -77,9 +81,7 @@
     "overrides": [
         {
             "files": ["*.html"],
-            "plugins": ["html"],
             "filters": {
-                "comments": true,
                 "allowlist": {
                     "allow": [
                         "/<!--[\\s\\S]*?-->/m",
@@ -106,9 +108,7 @@
         },
         {
             "files": ["*.tex", "*.latex"],
-            "plugins": ["latex2e"],
             "filters": {
-                "comments": true,
                 "allowlist": {
                     "allow": [
                         "/%[\\s\\S]*?$/m"
