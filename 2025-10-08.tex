@@ -1,0 +1,58 @@
+\documentclass[a4paper,12pt]{ujarticle}
+\usepackage[top=25mm,bottom=25mm,left=25mm,right=25mm]{geometry}
+\title{週間報告}
+\author{金武俊佑}
+\date{2025年10月15日}
+
+\usepackage{otf}
+\usepackage{url}
+\usepackage{tabularx}
+\usepackage{comment}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{listings}
+\usepackage{pdfpages}
+\usepackage{multirow}
+\usepackage{float}
+
+\newcommand{\thc}[1]{\multicolumn{1}{c|}{#1}}
+
+\begin{document}
+\maketitle
+
+\section{今週の報告}\label{sec:thisweek}
+今週も金曜の1,2限にグループワークの班決めと制作物についての話し合った。\\
+　話し合いの結果、生活習慣から身を守るということで、起き上がると同時に電気がつく枕を開発することとなった。マイコンによる電球の操作方法については、先駆者がQiitaで共有している情報を参考にしながら、ハードウェア部分の構築を進めていく予定である。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=10cm]{./img/technoart_1.jpg}
+  \caption{試作デザイン}\label{fig:technoart_1}
+\end{figure}
+\subsection{就職活動}\label{sec:job}
+paizaのスカウトに応募する。
+\subsection{その他}\label{sec:other}
+
+\section{来週の予定}\label{sec:nextweek}
+来週の活動予定を以下に記す。
+\begin{itemize}
+  \item AtCoderをやる。
+  \item テクノアートの回路設計をする。
+\end{itemize}
+
+
+\section{スケジュール}\label{sec:schedule}
+後期のスケジュールを表\ref{tab:studyschedule}に示す。
+
+\begin{table}[H]
+  \caption{前期のスケジュール}\label{tab:studyschedule}
+  \centering
+  \begin{tabular}{|p{4mm}||p{30mm}|p{30mm}|p{30mm}|p{30mm}|p{30mm}|}\hline
+        & \thc{月} & \thc{火} & \thc{水} & \thc{木} & \thc{金} \\ \hline\hline
+     1  &     & AI導入    &情報セキュリティ     & キャリア形成 & テクノアート  \\ \hline
+     2  &     & 知的財産権 &  & 現代の政治 & テクノアート \\ \hline
+     3  &     & 経営情報学 & 情報科学演習Ⅱ &  &  \\ \hline
+     4  &  &  & &  & \\ \hline
+  \end{tabular}
+\end{table}
+
+\end{document}
